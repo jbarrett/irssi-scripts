@@ -2,7 +2,6 @@
 
 use strict;
 use warnings;
-use feature 'state';
 
 use Irssi;
 
@@ -21,7 +20,7 @@ $VERSION = '0.01';
 
 sub eightball {
     my ( $server, $target ) = @_;
-    state @answers = (
+    my @answers = (
         "As I see it, yes",
         "It is certain",
         "It is decidedly so",
