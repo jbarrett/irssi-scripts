@@ -15,6 +15,7 @@ $VERSION = '0.01';
     license     => 'GPLv3+',
     url         => 'https://github.com/jbarrett/irssi-scripts',
     changed     => '2009-08-22',
+    version     => $VERSION
 );
 
 sub eightball {

@@ -18,6 +18,7 @@ $VERSION = '0.01';
     license     => 'GPLv3+',
     url         => 'https://github.com/jbarrett/irssi-scripts',
     changed     => '2009-09-02',
+    version     => $VERSION
 );
 
 my @quotes;
@@ -28,7 +29,7 @@ sub get_page {
     my $ua  = LWP::UserAgent->new;
     my $response;
     $ua->timeout(5);
-    $ua->agent('BashBot '.$IRSSI->{version});
+    $ua->agent("BashBot $VERSION");
     $response = $ua->get("$url");
     if ( $response->is_success ) {
         return $response->decoded_content;    # or whatever
