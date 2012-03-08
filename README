@@ -1,0 +1,6 @@
+Bot scripts:
+
+8ball.pl    -   You know what this does
+bashbot.pl  -   Pulls a page of random quotes from bash.org/qdb.us and spits them into a channel
+fortune.pl  -   Pulls a quote from your fortune files and spits it into a channel
+
