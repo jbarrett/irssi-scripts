@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+use feature 'state';
 
 use Irssi;
 
